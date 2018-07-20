@@ -8,7 +8,7 @@ public class Server_Arraylist{
   public static void main(String arg[]){
 
     try{
-      Arraylist arr = new Arraylist();
+      Arraylist_demo2 arr = new Arraylist_demo2();
 
     ServerSocket ss = new ServerSocket(1234);
     Socket skt = ss.accept();
